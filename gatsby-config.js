@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-use-query-params',
     {
       resolve: `gatsby-source-datocms`,
       options: { apiToken: process.env.DATO_API_TOKEN },
